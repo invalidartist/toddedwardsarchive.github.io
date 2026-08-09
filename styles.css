@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-  background-image: url("ToddBG.png");
+  background-image: url("./ToddBG.png");
   background-repeat: repeat;
   background-size: 30%;
 
