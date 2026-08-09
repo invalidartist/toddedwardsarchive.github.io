@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #0f0f11;
   overflow-x: hidden; /* Cleans up the rotated image edges */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 .background {
@@ -17,7 +17,7 @@ body {
   width: 150vw;  
   height: 250vh;  
   
-  filter: blur(10px) brightness(70%) contrast(120%) saturate(120%);
+  filter: blur(3px) brightness(50%) contrast(130%) saturate(150%);
   transform: rotate(-20deg);
   z-index: -1;
 }
@@ -27,12 +27,14 @@ body {
   background: transparent; 
   position: relative; 
   padding: 40px 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+  backdrop-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 .welcome-uppertext {
-  color: white;
+  color: gray;
 }
 .welcome-header h1 {
-  color: red;
+  color: white;
 }
 .welcome-subtext {
   color: gray;
