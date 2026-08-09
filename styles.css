@@ -18,3 +18,12 @@ body::before {
   position: center;
   background: transparent
 }
+.welcome-uppertext {
+  color: white;
+}
+.welcome-header h1 {
+  color: red;
+}
+.welcome-subtext {
+  color: gray;
+}
