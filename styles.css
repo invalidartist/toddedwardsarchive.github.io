@@ -1,3 +1,7 @@
+:root {
+  --dropshadow: drop-shadow(0 0 20px rgba(0, 0, 0, 1)) drop-shadow(0 0 3px rgba(0, 0, 0, 1));
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +21,7 @@ body {
   width: 150vw;  
   height: 250vh;  
   
-  filter: blur(3px) brightness(50%) contrast(130%) saturate(150%);
+  filter: blur(3px) brightness(40%) contrast(130%) saturate(150%);
   transform: rotate(-20deg);
   z-index: -1;
 }
@@ -28,14 +32,19 @@ body {
   position: relative; 
   padding: 40px 20px;
   font-family: Verdana, Tahoma, sans-serif;
-  backdrop-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 .welcome-uppertext {
   color: gray;
+  filter: var(--dropshadow);
 }
 .welcome-header h1 {
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-mask: linear-gradient(#000 0 0) text;
+          mask: linear-gradient(#000 0 0) text;
+  backdrop-filter: blur(20px) saturate(150%) brightness(110%) contrast(150%);
 }
+
 .welcome-subtext {
   color: gray;
+  filter: var(--dropshadow);
 }
