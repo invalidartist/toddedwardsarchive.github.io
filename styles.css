@@ -1,9 +1,17 @@
 :root {
   --blur-mode: Blur(20px);
 }
-
 body {
-  background-image: url("ToddBG.png")
+  position: auto;
+  overflow: scroll;
+}
+
+body::before {
+  background-image: url("ToddBG.png");
+  width: 150%;
+  height: 150%;
+  filter:blur(20px);
+  transform: rotate(-20deg);
 }
 
 .welcome-header {
