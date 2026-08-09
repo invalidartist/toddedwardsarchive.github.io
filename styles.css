@@ -16,7 +16,7 @@ body {
   width: 150vw;  
   height: 150vh;  
   
-  filter: blur(20px);
+  filter: blur(10px) brightness(70%) contrast(120%) saturate(120%);
   transform: rotate(-20deg);
   z-index: -1;
 }
