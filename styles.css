@@ -1,12 +1,6 @@
-:root {
-  --blur-mode: Blur(20px);
-}
-body {
-  position: auto;
-  overflow: scroll;
-}
 
-body::before {
+
+.background {
   background-image: url("ToddBG.png");
   width: 150%;
   height: 150%;
