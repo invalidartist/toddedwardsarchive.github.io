@@ -1,4 +1,5 @@
 :root {
+  --blur-mode: Blur(20px);
 }
 
 body {
