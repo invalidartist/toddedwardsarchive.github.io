@@ -5,3 +5,8 @@
 body {
   background-image: url("ToddBG.png")
 }
+
+.welcome-header {
+  position: center;
+  background: transparent
+}
