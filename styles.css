@@ -8,6 +8,7 @@ body {
   background-color: #0f0f11;
   overflow-x: hidden; /* Cleans up the rotated image edges */
   font-family: Verdana, Tahoma, sans-serif;
+  color: white;
 }
 
 .background {
@@ -38,10 +39,10 @@ body {
   filter: var(--dropshadow);
 }
 .welcome-header h1 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.4);
   -webkit-mask: linear-gradient(#000 0 0) text;
           mask: linear-gradient(#000 0 0) text;
-  backdrop-filter: blur(20px) saturate(150%) brightness(110%) contrast(150%);
+  backdrop-filter: blur(20px) saturate(250%) brightness(1000%) contrast(50%);
 }
 
 .welcome-subtext {
